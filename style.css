@@ -56,15 +56,5 @@ html, body {
   font-style: italic;
 }
 
-.borda {
-  position: fixed;  
-  top: 0;
-  left: 0;
-  right: 0;
-  width: 100vw;  
-  height: 100vh;
-  border: 5
-  px solid rgba(112, 142, 144, 0.685);
-  box-sizing: border-box; 
-}
+
 
