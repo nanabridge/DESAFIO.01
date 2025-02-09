@@ -1,0 +1,70 @@
+html, body {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 20px; 
+  max-width: 80%; 
+  margin: 20px auto; 
+}
+
+.foto {
+  width: 30%; 
+  max-width: 150px; 
+  height: auto; 
+  display: block;
+}
+
+.texto {
+  width: 30%; 
+  max-width: 150px; 
+  height: auto; 
+}
+
+.lista {
+  list-style-type: circle;
+  padding-left: 20px;
+}
+
+.lista a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.topico {
+  font-size: 1.4em; 
+  color: rgb(40, 139, 115);
+}
+
+.titulo {
+  font-family: Arial, sans-serif;
+  font-size: 1.2em;
+  color: darkslategrey;
+  margin: 10px;
+  left: 20px;
+}
+
+.sublegenda {
+  margin-top: 0;
+  font-size: 0.8em; 
+  font-style: italic;
+}
+
+.borda {
+  position: fixed;  
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100vw;  
+  height: 100vh;
+  border: 5
+  px solid rgba(112, 142, 144, 0.685);
+  box-sizing: border-box; 
+}
+
